@@ -1,0 +1,161 @@
+*{
+	margin:0 ;
+	padding:0 ;
+	list-style:none ;
+}
+
+/*背景图片放在最底层*/
+body{
+	background-size:100% ;
+	background-image:url(../images/Desert.jpg) ;
+	/*background-attachment:fixed ;*/
+}
+
+.container{
+	width:1200px ;
+	height:870px ;
+	margin:0 auto ;
+}
+
+.nav{
+	height: 50px;
+	margin-top: 10px;
+	line-height: 50px;
+}
+
+.nav ul li{
+	float:right ;
+	font-size:15px ;
+}
+
+.nav ul li a{
+	text-decoration:none ;
+	color:#152b3c;
+	padding:15px 30px ;
+}
+
+/*点击时显示*/
+.nav ul li a:hover{
+	color: ;
+	border:1px solid white ;
+	border-radius:5% ;
+}
+
+.main{
+	width:1200px ;
+	height:450px ;
+}
+
+.sideLeft{
+	float:left ;
+	width:460px ;
+	height:250px ;
+	padding:80px 130px ;
+}
+
+.sideLeft p{
+	font-size:16px ;
+	padding:8px 0 ; 
+}
+
+.sideRight{
+	float:right ;
+	width: 480px;
+	height:450px;
+}
+
+.sideRight .index{
+	width: 330px;
+	height:350px;
+	margin: 50px 90px;
+	background-color: rgba(255,255,255,0.75);
+}
+
+.headline{
+	font-size:22px ;
+	text-align: center ;
+	padding:20px ;
+}
+
+/*群组*/
+input[type="text"], input[type="submit"] ,input[type="password"]{
+	-web-kit-appearance:none;
+	-moz-appearance:none ;
+	width:240px ;
+	margin:0px auto ;
+	display:block ;
+	font-size: 15px;
+}
+
+input[type="text"]{
+	height:35px ;
+	outline:0 ;
+	border-radius:3px ;/*添加圆角边框*/
+	color: #6a6f77;
+	border:1px solid  #c8cccf ;
+}
+
+input[type="password"]{
+	height:35px ;
+	outline:0 ;
+	border-radius:3px ;/*添加圆角边框*/
+	color: #6a6f77;
+	border:1px solid  #c8cccf ;
+}
+
+input[type="submit"]{
+	margin-top: 25px;
+	height: 35px;
+	background: #357eb8;
+	color: #bcedff;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input[text="submit"]:hover{
+	background-color:#0e62a3 ;
+	cursor: pointer ;
+}
+
+.astyle{
+	font-size:17px ;
+	margin:5px 0 5px 42px ;
+	color:#6a6f77 ;
+}
+
+.bstyle{
+	display:block ;
+	float:left ;
+	font-size:15px ;
+	margin-left:42px ;
+}
+
+.cstyle{
+	float:right ;
+	margin-right:42px ;
+	display:block ;
+	font-size:15px ;
+}
+.ctyle a{
+	text-decoration:none ;
+}
+
+.footer{
+	margin:60px auto ;
+	width:1000px ;
+}
+
+.footer ul{
+	margin-left:100px ;
+}
+
+.footer ul li{
+	float:left ;
+}
+
+.footer ul li a{
+	color: black;
+	text-decoration:none ;
+	border-left: 2px solid black;
+	padding: 0 10px;
+}

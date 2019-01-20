@@ -1,0 +1,74 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+/* 主体 */
+body{
+    width: 100% ;
+    margin: 0 auto ;
+}
+
+/* 导航 */
+.nav{
+    float: left;
+    height: 62px; /*导航高*/
+    width: 100% ;
+    background-color: #232323 ;
+}
+.nav .wrap{
+    width: 1000px ;
+    height: 62px;
+    margin: 0 auto ;
+}
+/*右上角logo*/
+.nav .wrap .logo{
+    float: left;
+    height: 38px;
+    margin-top: 12px ;
+    margin-left: 10px ;
+}
+
+
+/*中间导航
+.nav .wrap ul{
+    width: 745px ;
+    height: 62px ;
+    float: right;
+}
+.nav .wrap ul li{
+    list-style: none;
+    float: left;
+    /*
+    padding-top:22px ;
+    padding-bottom: 21px ;
+*/
+    font-size: 13px ;  
+    height: 62px;   
+    line-height: 62px ;
+}
+/*点击列表得到红色
+.nav .wrap ul li:hover{
+    background-color: #f15a23 ;
+ }
+ /*对连接中的文字修饰
+.nav .wrap ul li a{
+    text-decoration: none ;
+    color: #ffffff ;
+    border-right: 1px solid #444444;
+    border-left: 1px solid #000000 ;
+    padding-right: 13px ;
+    padding-left: 15px ; 
+}
+.nav .wrap ul li a:hover{
+    border:none ;
+    margin-right: 2px ;
+}
+.nav .wrap ul .noborderLeft{
+    border:none ;
+}
+
+.nav .wrap ul .noborderRight{
+    border:none ;
+}
+*/

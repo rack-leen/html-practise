@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<!-- 
+    html结构
+    1 header 头部，表示最上方占满全屏的部分
+        + wrap 居中的显示头部信息的部分
+    2 logo   上方logo部分
+    3 nav    上方导航部分
+    4 banner 中部横幅部分
+    5 picture中间大图部分
+        label  横幅下方控制大图显示的标签
+        top    大图显示的上方部分
+        center 大图显示的中间部分
+        bottom 大图显示的下方部分
+    6 footer 页脚部分
+ -->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>名鞋库</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<!-- 主体部分 -->
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 居中显示头部信息的部分 -->
+        <div class="wrap">
+            <ul>
+                <li><a href="#">欢迎登陆名鞋库</a><a href="#">免费注册</a></li>
+                <li><a href="#">我的名鞋库</a></li>
+                <li><a href="#">手机名鞋库</a></li>
+                <li><a href="#">收藏名鞋库</a></li>
+                <li><a href="#">名鞋库客服</a></li>
+                <li><a href="#"><img src="images/myphone.png" /></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- logo部分 -->
+    <div class="logo">
+        <!-- logo左边的logo图片 -->
+        <div class="left">
+            <div></div>
+        </div>
+        <!-- logo中间的搜索框 -->
+        <div class="center">
+            <!-- 搜索框块中的表单区域 -->
+            <form name="search" method="post/get" action="">
+                <!-- 表单区域中的左边文本区域 -->
+                <div>
+                    <input type="text" name="search-text" id="search-thing" placeholder="郎蒂维" />
+                </div>
+                <!-- 表单区域中的右边按钮区域 -->
+                <div>
+                    <label for="search-thing"><input type="button" name="search-button" value="搜索" /></label>
+                </div>
+            </form>
+            <!-- 搜索框块中的文本区域 -->
+            <p>
+                <a href="#">热搜：</a>
+                <a href="#">耐克</a>
+                <a href="#">阿迪</a>
+                <a href="#">新品</a>
+                <a href="#">帆布鞋</a>
+                <a href="#">跑步鞋</a>
+                <a href="#">篮球鞋</a>
+                <a href="#">外套</a>
+            </p>
+        </div>
+        <!-- logo右边的购物车 -->
+        <div class="right">
+            <p><a href="#">购物车<span>0</span>件</a></p>
+        </div>
+    </div>
+    <!-- 导航部分 -->
+    <div class="nav">
+        <!-- 导航的中间信息部分 -->
+        <div class="wrap">
+            <!-- 左边区域 -->
+            <div>
+                <!-- 左边导航列表 -->
+                <ul>
+                    <!-- 前方商品菜单 -->
+                    <li>
+                        <!-- 下拉菜单 -->
+                        <h3><a href="#">所有商品分类</a></h3>
+                        <ul class="submenu">
+                            <li><a href="#">运动休闲鞋</a></li>
+                            <li><a href="#">运动休闲服</a></li>
+                            <li><a href="#">跑步</a></li>
+                            <li><a href="#">篮球</a></li>
+                            <li><a href="#">足球</a></li>
+                            <li><a href="#">包包/配件</a></li>
+                            <li><a href="#">户外</a></li>
+                            <li><a href="#">男鞋/女鞋</a></li>
+                            <li><a href="#">童鞋</a></li>
+                        </ul>
+                    </li>
+                    <!-- 后方导航 -->
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">运动休闲</a></li>
+                    <li><a href="#">跑步</a></li>
+                    <li><a href="#">篮球</a></li>
+                    <li><a href="#">足球</a></li>
+                    <li><a href="#">户外</a></li>
+                    <li><a href="#">配件</a></li>
+                    <li><a href="#">男鞋</a></li>
+                    <li><a href="#">童鞋</a></li>
+
+                </ul>
+            </div>
+
+            <!-- 右边区域 -->
+            <div>
+                <!-- 右边导航列表 -->
+                <ul>
+                    <li><a href="#">上新区</a></li>
+                    <li><a href="#">即将售罄</a></li>
+                    <li><a href="#">逢八必杀</a></li>
+                </ul>
+                <a href="#"><img src="images/flag.png" /></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 中间横幅部分 -->
+    <div class="banner">
+    </div>
+
+    <!-- 中间大图部分 -->
+    <div class="picture">
+        <!-- label -->
+        <div class="label">
+            <ul>
+                <li><a href="#">运动/户外</a></li>
+                <li><a href="#">儿童</a></li>
+            </ul>
+        </div>
+
+        <!-- 上面图片部分 -->
+        <div class="top-pic">
+            <!-- 左边列表 -->
+            <div class="left">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"><img src="images/youhui.png" alt=""></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <!-- 右边块 -->
+            <div class="right">
+                <ul>
+                    <li><a href="#">型男+锐步复古鞋吸睛穿搭</a></li>
+                    <li><a href="#">看！全球最火的10大运动鞋</a></li>
+                    <li><a href="#">Nana惊艳示范斯凯奇熊猫鞋</a></li>
+                </ul>
+                <div class="center">
+                    <a href="#"><img src="images/98i4o4ptit.png" /></a>
+                </div>
+                <div class="bottom">
+                    <a href="#"><img src="images/nb.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 中部图片部分 -->
+        <div class="center-pic">
+            <dl>
+                <a href="#">
+                    <dt></dt>
+                    <dd>
+                        <h3>金秋尚新</h3>
+                        <p>满100立减20</p>
+                    </dd>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt></dt>
+                    <dd>
+                        <h3>尖端抢先 炫色酷跑</h3>
+                        <p>满500减100 满1000减200</p>
+                    </dd>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt></dt>
+                    <dd>
+                        <h3>锐步复古经典</h3>
+                        <p>低至3.5折</p>
+                    </dd>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt></dt>
+                    <dd>
+                        <h3>安踏79元起</h3>
+                        <p>狂欢不止 劲爆来袭</p>
+                    </dd>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt></dt>
+                    <dd>
+                        <h3>潮鞋王朝 随心所欲</h3>
+                        <p>满300减50 满500减100</p>
+                    </dd>
+                </a>
+            </dl>
+        </div>
+
+        <!-- 下部图片部分 -->
+        <div class="bottom-pic">
+            <!-- 左边 -->
+            <div class="left">
+                <!-- 上边大图 -->
+                <div class="top">
+                    <a href="#"><img src="images/1.png" /></a>
+                </div>
+                <!-- 中间ul列表图 -->
+                <div class="center">
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <!-- 下边ul列表文字 -->
+                <div class="bottom">
+                    <ul>
+                        <li><a href="#">休闲鞋</a></li>
+                        <li><a href="#">板鞋</a></li>
+                        <li><a href="#">帆布鞋</a></li>
+                        <li><a href="#">NB复古鞋</a></li>
+                        <li><a href="#">开口笑</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">开拓者</a></li>
+                        <li><a href="#">ZX系列</a></li>
+                        <li><a href="#">pumma休闲鞋</a></li>
+                        <li><a href="#">Air max</a></li>
+                        <li><a href="#">明星同款</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div style="clear:both;"></div> -->
+            <!-- 中间 -->
+            <div class="pic-center">
+                <a href="#"><img src="images/s1508271f1.jpg" /></a>
+            </div>
+            <!-- 右边 -->
+            <div class="right">
+                <ul>
+                    <li><a href="#"><img src="images/s15081f2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/s15081f3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/s1509141f4.jpg" alt=""></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"><img src="images/s15081f5.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/s1509281f6.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/s15081f7.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚部分 -->
+    <div class="footer">
+        <div class="main-footer">
+            <div class="QR">
+                <img src="images/2014052815001.png" alt="">
+            </div>
+            <div class="foot">
+                <div>
+                    <img src="images/2014052815002.png" alt="">
+                    <dl>
+
+                        <dt>支付方式</dt>
+                        <dd><a href="#">在线支付</a></dd>
+                        <dd><a href="#">贷到付款</a></dd>
+                        <dd><a href="#">发票声明</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <img src="images/2014052815003.png" alt="">
+                    <dl>
+                        <dt>售后服务保障</dt>
+                        <dd><a href="#">退换货说明</a></dd>
+                        <dd><a href="#">服务承诺</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <img src="images/2014052815004.png" alt="">
+                    <dl>
+                        <dt>物流配送</dt>
+                        <dd><a href="#">合作愉快</a></dd>
+                        <dd><a href="#">运费说明</a></dd>
+                        <dd><a href="#">配送时间</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <img src="images/2014052815005.png" alt="">
+                    <dl>
+                        <dt>会员服务</dt>
+                        <dd><a href="#">级别和特权</a></dd>
+                        <dd><a href="#">积分政策</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test</title>
+
+<!-- 按权重排序 -->
+
+<!-- 通配符选择器 -->
+	<style>
+	/* 通配符没有权重，用于重置网页默认样式 */
+    	*{
+			margin:0;
+			padding:0 ;
+			color:red ;
+			}
+    </style>
+
+<!-- 元素选择器 -->
+	<style>
+	/* 元素选择器权重为1 */
+    	div{
+			 color:yellow ;
+			 margin:10 ;
+			 padding:10 ;
+			}
+    </style>
+
+<!-- class选择器 -->
+	 <style>
+	/*class权重为10*/
+		.div1{
+			 color:green ;
+			 margin:10 ;
+			 padding:10 ;
+			}
+    </style> 
+    
+<!-- id选择器 -->
+	<style>
+		/*id选择器权重为100*/
+		#div1{
+			 color:orange ;
+			 margin:10 ;
+			 padding:10 ;
+			}
+    </style>
+
+<!-- 群组选择器 -->
+	<style>
+		.fs,.mo{
+				font-size:15px ;
+				color:gray ;
+			}
+    </style>
+<!-- 包含选择器 -->
+	<style>
+		ul li{
+			 color:purple ;
+			 margin:10 ;
+			 padding:10 ;
+			}
+    </style>
+</head>
+
+<body>
+<div class="div1 " id="div1">第一个布局设置</div>
+
+<div class="fs mo">第一个布局设置</div>
+<div class="mo">第一个布局设置</div>
+<ul>
+	<li>adfsgfdhfj</li>
+    <li>adfsgfdhfj</li>
+    <li>adfsgfdhfj</li>
+    <li>adfsgfdhfj</li>
+</ul>
+</body>
+</html>

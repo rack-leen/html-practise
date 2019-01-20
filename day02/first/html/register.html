@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+    	<meta charset="utf-8" />
+        <title>注册</title>
+    </head>
+    
+    <body>
+    <form name="注册账户" method="post/get" action="../index.html">
+    <table>
+    	<tr>
+    		<td>帐户名 : </td>
+            <td><input type="text" name="account" /> </td>
+        </tr>
+        <tr>
+    		<td>注册邮箱：</td>
+    		<td><input type="text" name="email" /> </td>
+    	</tr>	
+        <tr>    
+            <td>注册密码：</td>
+            <td><input type="password" name="fpassword" /> </td>
+    	</tr>
+        <tr>	
+            <td>确认密码：</td>
+            <td><input type="password" name="spassword" /> </td>
+    	</tr>
+        <tr>
+            <td>性别   ：</td>
+            <td>
+            	<input type="radio" name="sex" id="man1" value="1" /> 
+    			<label for="man1">男</label>
+       			<input type="radio" name="sex" id="man2" value="0" />
+            	<label for="man2">女</label>        
+    		</td>
+        </tr>
+        <tr>
+        	<td>民族:</td>
+            <td><select name="nation">
+            		<option value="1">汉族</option>
+                    <option value="2">满族</option>
+                    <option value="3">回族</option>
+                    <option value="4">壮族</option>
+                    <option value="5">蒙古族</option>
+                    <option value="6">俄罗斯族</option>
+            
+            </td>
+        </tr>
+    </table>	
+    <input type="submit" value="确认" />
+    </form>
+    </body>
+</html>

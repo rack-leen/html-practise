@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0 ;
+	padding:0 ;
+	}
+ul{
+	height: 240px;
+	width: 500px;
+	border:1px solid red ;
+	margin:20px auto ;
+	}
+ul li{
+	list-style:none ;
+	padding-left:20px;
+	background: url(../images/gt.jpg) no-repeat 10px 20px ;
+	}
+
+ol{
+	height:240px ;
+	width:500px ;
+	border:1px solid green ;
+	margin:0 auto ;
+	}
+ol li{
+	list-style-type:none ; /*与list-style用法相同*/
+	}

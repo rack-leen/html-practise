@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0 ; padding:0 ;}
+
+body{
+    background-color:#eceddd;
+    font-family:Arial, Verdana,'Lucida Grande', Helvetica, sans-serif;
+    text-align: center;
+    color: #333333;
+}
+
+header{
+	background: url(Desert.jpg) no-repeat #85D0ED;
+	width: 902px;
+    height: 203px;
+	padding-top:0px ;
+	margin:0px auto ;/*自动居中*/
+	
+	}
+
+header h1 {
+    float:left;
+    font-size:2.9em;
+    padding-top:60px;
+    padding-left:37px;
+    font-family:Arial,verdana, sans-serif;
+    color:#37210c;
+    font-weight:bolder;
+    letter-spacing:-1px;
+    }
+
+
+.orange{
+    color:#e67e1f;
+    }

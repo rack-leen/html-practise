@@ -1,0 +1,37 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+ul {
+    width: 240px;
+    height: 22px;
+    margin: 50px auto;
+    border: 1px solid red;
+
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    width: 60px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../images/bg.gif) no-repeat;
+}
+
+ul li:nth-child(1){
+    background-position: 0 0 ;
+}
+
+ul li:nth-child(2){
+    background-position: -62px 0 ;
+}
+
+ul li:nth-child(3){
+    background-position: -124px 0 ;
+}
+
+ul li:nth-child(4){
+    background-position: -186px 0 ;
+}

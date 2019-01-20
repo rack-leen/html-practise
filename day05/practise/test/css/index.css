@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin:0 ;
+  padding:0 ;
+	}
+
+.p1{
+	text-transform:capitalize ; /*用大写字母印刷*/
+	}
+.p2{
+	text-transform:uppercase ; /* 小写字母变大写字母 */
+	}
+.p3{
+	text-transform:lowercase ; /* 变为小写字母 */
+	}
+	
+.p4{
+	color:#cccccc ;
+	font-size:32px ;
+	font-family:"微软雅黑" ；
+	}
+.p5{
+	color:rgb(187,167,154) ;
+	font-family:"宋体" ,"黑体" ;
+	}
+.p6{
+	/*加粗*/
+	font-weight:bold ;
+	}
+.p7{
+	/*更粗*/
+	font-weight:bolder ;
+	}
+	
+.p8{
+	/*最轻字体*/
+	font-weight:100 ;
+	}
+.p9{
+	/*最大*/
+	font-weight:900 ;
+	}
+.p10{
+	font-style:italic ; /*斜体字*/
+	font-style:oblique; /*倾斜的字体*/
+	}
+
+.p11{
+	height:100px ;
+	width:400px ;
+	border:1px solid;
+	text-align:justify ; /*两端对齐*/
+	}
+.p12{
+	height:200px ;
+	width:300px ;
+	border:1px solid red ;
+	background-color:red ;
+	/*line-height:20px ;*/
+	font:30px/20px "黑体" ; /*font-size line-height font-family的简写*/
+	}
+.p13{
+	text-decoration:underline ;
+	}
+.p14{
+	text-decoration:line-through ;
+	}
+.p15{
+	text-indent:2em ; /*1em=16px 0.75em=12px*/
+	letter-spacing:2px ;/*字间距*/
+	}

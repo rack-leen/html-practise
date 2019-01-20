@@ -1,0 +1,38 @@
+form表单
+
+action      放地址，给后台使用，将表单中的用户信息发送给目标地址
+method      表单的提交方式 post get 默认get方式提交
+target      新窗口打开
+name        表单的名称，方便区分表单(给后台使用)
+
+形式：<form name="login" method="post/get" target="_blank" action="https://www.baidu.com" />
+
+input
+
+type        设置输入的类型
+placeholder 设置表单框的提示
+value       设置表单框的默认输入
+name        input的名称，方便区分input(给后台使用)
+
+形式：<input type="submit" name="login" value="确认" />
+
+
+一、表单框（form）
+    
+    1、表单 标记 form 作用：收集用户信息  特点：自上而下排列的
+    
+    2、action 放地址（login.php/网络地址）
+    
+    3、method 表单的提交方式 get、post 默认是get方式提交
+    
+    4、target 新窗口打开
+    
+    5、name   表单的名称(后台使用的)
+    
+二、input相关的知识
+    
+    1、input标签由于type属性的属性值的不同，决定了它的功能的不同
+    
+    2、value表单的默认输入的值  placeholder和value的功能一样，表示形式不一样，placeholder当用户输入内容的时候，自动消失，而value需要手动的删除
+    
+    3、每个表单标签上面都有一个name属性，作用也是给后台使用

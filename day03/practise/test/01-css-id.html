@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>css的id选择器</title>
+		
+		<style>
+		/* id选择器 */
+			#first{
+					color:red ;
+				}
+		</style>
+		
+		
+		<style>
+		/*class选择器*/
+			p.import{
+				color:green ;
+				float:right ;
+			}
+			h1.import{
+				color:orange ;
+				/*float:right ;*/
+			}
+		</style>
+		
+		
+		<style>
+		/*通配符选择器*/
+			h2 *{
+				color:red ;
+				float:left;
+			}
+		</style>
+		
+		<style>
+			.p1{
+					color:blue ;
+				}
+			.fs{
+					font-size:34px ;
+			}
+		</style>
+		
+		
+		<style>
+		/* .p2是父 .p3是子 表示将父和其之下的所有子包括 */
+			.p2 .p3{
+					color: orange ;
+					font-size:31px ;
+				} 
+		</style>
+		
+		<style>
+			a{
+				color:blue ;
+			}
+			a:hover{
+				color:red ;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 class="import">第一章</h1>
+		<p id="first">这是一个段落</p>
+		<p class="import">这是第二个段落</p>
+		<h2>asfdsfhgfgjgf</h2>
+		<p class="p1 fs">第一</p>
+		<ul class="p2">
+			<li class="p3">1</li>
+			<li class="p3">2</li>
+			<li class="p3">3</li>
+		</ul>
+		
+		<a href="http://www.baidu.com">百度</a>
+	</body>
+</html>

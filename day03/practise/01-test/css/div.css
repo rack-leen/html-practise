@@ -1,0 +1,26 @@
+div.div1{
+	height:100px ;
+	width:200px ;
+	color:red ;
+	border:1px solid orange ;
+	text-align:center ;
+	margin:10px auto ; /* 整个div布局居中 */
+}
+
+div.div2{
+	height:100px ;
+	width:200px ;
+	color:green ;
+	border:1px solid red ;
+	text-align:center ;
+	margin:10px auto ;
+	}
+	
+div.div3{
+	height:100px ;
+	width:200px ;
+	color:orange ;
+	border:1px solid green ;
+	text-align:center ;
+	margin:10px auto;
+	}

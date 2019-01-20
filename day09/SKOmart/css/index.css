@@ -1,0 +1,1010 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 主体部分 */
+body {
+    width: 100%;
+}
+
+/************************************************************
+*** 1 header 显示页面的头部 
+*************************************************************/
+.header {
+    width: 100%;
+    height: 26px;
+    margin: 0 auto;
+    background: #eeeeee;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* header区域的中间显示信息的部分 */
+.header .wrap {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* 包含头部信息的列表 */
+.header .wrap ul {
+    list-style: none;
+    height: 16px;
+    width: 736px;
+    float: right;
+    margin-top: 4px;
+}
+
+.header .wrap ul li {
+    float: left;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    border-right: 1px solid #d4d4d4;
+}
+
+.header .wrap ul li a {
+    text-decoration: none;
+}
+
+/* 第一个列表元素 免费注册 */
+.header .wrap ul li:nth-child(1) a {
+    color: #ff6701;
+}
+
+.header .wrap ul li:nth-child(1) a:nth-child(2) {
+    margin-left: 13px;
+    margin-right: 16px;
+}
+
+/* 第二个列表元素 我的名鞋库 */
+.header .wrap ul li:nth-child(2) a {
+    padding-left: 15px;
+    padding-right: 26px;
+
+    color: #676767;
+    background: url(../images/select.png) no-repeat 83px center;
+}
+
+/* 第三个列表元素 手机名鞋库 */
+.header .wrap ul li:nth-child(3) {
+    background: url(../images/phone.png) no-repeat 15px center;
+}
+
+.header .wrap ul li:nth-child(3) a {
+    padding-left: 30px;
+    padding-right: 26px;
+    color: #676767;
+    background: url(../images/select.png) no-repeat 98px center;
+}
+
+/* 第四个列表元素 收藏名鞋库 */
+.header .wrap ul li:nth-child(4) a {
+    padding-left: 15px;
+    padding-right: 16px;
+    color: #323232;
+}
+
+/* 第五个列表元素 名鞋库客服 */
+.header .wrap ul li:nth-child(5) a {
+    padding-left: 35px;
+    padding-right: 16px;
+    color: #323232;
+    background: url(../images/qq.png) no-repeat 13px center;
+}
+
+/* 第六个列表元素 座机号（图） */
+.header .wrap ul li:nth-child(6) a img {
+    padding-left: 13px;
+    padding-right: 14px;
+}
+
+
+/************************************************************
+*** 2 logo   显示页面标识
+*************************************************************/
+.logo {
+    width: 1190px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+/* 左边的logo图片 */
+.logo .left {
+    float: left;
+    width: 422px;
+    height: 63px;
+    /* border:1px solid green ; */
+    background: url(../images/default_icon_bg.png) no-repeat;
+    margin-top: 10px;
+}
+
+.logo .left:nth-child(1) {
+    background-position: 1px -1px;
+}
+
+
+/* 中间的搜索框 */
+.logo .center {
+    width: 340px;
+    height: 60px;
+    float: left;
+    margin-left: 116px;
+    margin-top: 16px;
+}
+
+/* 表单区域中的左边文本区域 */
+.logo .center form div:nth-child(1) input {
+    float: left;
+    height: 30px;
+    width: 274px;
+    padding-left: 7px;
+    outline: none;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    border-right: none;
+}
+
+/* 表单区域中的右边按钮区域 */
+.logo .center form div:nth-child(2) input {
+    float: left;
+    width: 66px;
+    height: 30px;
+    font-size: 16px;
+    background: #444444;
+    color: #fffcfb;
+    outline: none;
+    border: none;
+}
+
+/* 搜索框块中的文本区域 */
+.logo .center p a {
+    float: left;
+    font-size: 12px;
+    text-decoration: none;
+    color: #8a8a8a;
+    margin: 0 4px;
+    margin-top: 8px;
+}
+
+/* logo右边的购物车 */
+.logo .right {
+    float: right;
+    width: 126px;
+    height: 34px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    background: url(../images/default_icon_bg.png) no-repeat;
+    background-position: 0 -64px;
+}
+
+.logo .right p {
+    padding-left: 45px;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.logo .right p a {
+    text-decoration: none;
+    color: #666666;
+}
+
+/************************************************************
+*** 3 nav    显示页面导航
+*************************************************************/
+.nav {
+    width: 100%;
+    height: 34px;
+    background: #a21f25;
+
+}
+
+.nav .wrap {
+    width: 1190px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+/*  前方商品菜单 */
+.nav .wrap div:nth-child(1) ul li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    line-height: 34px;
+    height: 34px;
+}
+
+.nav .wrap div:nth-child(1) ul li a {
+    padding-left: 15px;
+    padding-right: 16px;
+    background: url(../images/border.png) no-repeat 0 4px;
+}
+
+.nav .wrap div:nth-child(1) ul li a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.nav .wrap div:nth-child(1) li:nth-child(1) h3 {
+    width: 188px;
+    height: 34px;
+    /* float: left; */
+    padding-left: 0;
+    padding-right: 0;
+    background: #b9363c;
+    color: #fcfbf7;
+    text-align: center;
+    /* background:url(../images/default_icon_bg.png) no-repeat ;
+    background-position: -126px -64px ; */
+}
+
+.nav .wrap div:nth-child(1) li:nth-child(1) h3 a {
+    background: none;
+}
+
+.nav .wrap div:nth-child(1) li:nth-child(1):hover .submenu {
+    display: block;
+}
+
+/* 下拉子菜单 */
+/* .nav .wrap div:nth-child(1) li:nth-child(1) h3{
+    height: 34px;
+} */
+
+/* 第一个列表 */
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu {
+    height: 385px;
+    width: 188px;
+    background: #1f1909;
+    box-sizing: border-box;
+    position: relative;
+    display: none;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li {
+    list-style: none;
+    float: none;
+    background: none;
+    height: 43px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li {
+    background: url(../images/navicon.png) no-repeat;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li a {
+    background-image: none;
+    padding-right: 0;
+    padding-left: 40px;
+    /* padding:15px 90px 15px 40px ; */
+    line-height: 43px;
+    position: absolute;
+
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(1) {
+    background-position: 10px -50px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(2) {
+    background-position: 10px -93px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(3) {
+    background-position: 10px -138px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(4) {
+    background-position: 10px -188px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(5) {
+    background-position: 10px -233px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(6) {
+    background-position: 10px -280px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(7) {
+    background-position: 10px -330px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(8) {
+    background-position: 10px -377px;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(1) .submenu li:nth-child(9) {
+    background-position: 10px -420px;
+}
+
+
+
+/* 第二个列表 */
+.nav .wrap div:nth-child(1) ul li:nth-child(2) {
+    background-color: #444444;
+}
+
+.nav .wrap div:nth-child(1) ul li:nth-child(2) a {
+    background-image: none;
+}
+
+/* 第三个列表 */
+.nav .wrap div:nth-child(1) ul li:nth-child(3) a {
+    background-image: none;
+}
+
+/* 最后一个列表 */
+.nav .wrap div:nth-child(1) ul li:nth-child(10) a {
+    color: #fee300;
+}
+
+
+
+
+/* 右边区域 */
+.nav .wrap div:nth-child(2) {
+    width: 190px;
+    height: 34px;
+    float: right;
+    position: relative;
+}
+
+.nav .wrap div:nth-child(2) li {
+    list-style: none;
+    float: left;
+
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.nav .wrap div:nth-child(2) li a {
+    text-decoration: none;
+    color: #f2e8e6;
+    border-right: 1px solid #cd9191;
+    padding: 0 11px;
+}
+
+.nav .wrap div:nth-child(2) li:nth-child(1) a {
+    padding-left: 0px;
+}
+
+.nav .wrap div:nth-child(2) li:nth-child(3) a {
+    color: #ffcb01;
+}
+
+.nav .wrap div:nth-child(2) a img {
+    position: absolute;
+    right: 68px;
+    bottom: 26px;
+}
+
+/************************************************************
+*** 4 banner 显示页面中间的横幅
+*************************************************************/
+.banner {
+    width: 100%;
+    height: 385px;
+    margin: 0 auto;
+    background: url(../images/banner.jpg) no-repeat center center;
+}
+
+/************************************************************
+*** 5 picture显示中间大屏图片
+*************************************************************/
+.picture {
+    width: 100%;
+    height: 1030px;
+    /* border-bottom: 1px solid #ce3c3d; */
+    background-color: #f6f6f6;
+    margin: 0 auto;
+}
+
+/********** 5 label  显示控制大图的label  *********/
+.picture .label {
+    width: 1190px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.picture .label ul li {
+    font-size: 12px;
+    list-style: none;
+    float: left;
+    line-height: 42px;
+    margin-right: 20px;
+    color: #000000;
+}
+
+
+.picture .label ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.picture .label ul li:hover a {
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 6px;
+}
+
+
+/********** 6 top    显示大图的上方部分   *********/
+.picture .top-pic {
+    width: 1190px;
+    height: 214px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    background-color: #fdfdfd;
+}
+
+.picture .top-pic .left {
+    width: 990px;
+    height: 214px;
+    /* border: 1px solid red; */
+    float: left;
+    position: relative;
+}
+
+.picture .top-pic .left ul li {
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    margin-right: 0;
+    float: left;
+    list-style: none;
+}
+
+.picture .top-pic .left ul li a {
+    list-style: none;
+    float: left;
+    height: 70px;
+    width: 140px;
+
+    background: url(../images/top.png) no-repeat;
+}
+
+.picture .top-pic ul li:hover a {
+    border: none;
+    padding: 0;
+}
+
+.picture .top-pic .left ul li:nth-child(1) {
+    border-left: 1px solid #dfdfdf;
+}
+
+/* 第一列表 */
+.picture .top-pic .left ul:nth-child(1) li:nth-child(1) a {
+    background-position: 35px 2px;
+}
+
+.picture .top-pic .left ul:nth-child(1) li:nth-child(2) a {
+    background-position: -102px 8px;
+}
+
+.picture .top-pic .left ul:nth-child(1) li:nth-child(3) a {
+    background-position: -244px 2px;
+}
+
+.picture .top-pic .left ul:nth-child(1) li:nth-child(4) a {
+    background-position: -392px 4px;
+}
+
+.picture .top-pic .left ul:nth-child(1) li:nth-child(5) a {
+    background-position: -544px 7px;
+}
+
+.picture .top-pic .left ul:nth-child(1) li:nth-child(6) a {
+    background-position: -729px 1px;
+}
+
+.picture .top-pic .left ul:nth-child(1) li:nth-child(7) a {
+    background-position: -855px 8px;
+}
+
+/* 第二列表 */
+.picture .top-pic .left ul:nth-child(2) li:nth-child(1) a {
+    background-position: 35px -70px;
+}
+
+.picture .top-pic .left ul:nth-child(2) li:nth-child(2) a {
+    background-position: -102px -67px;
+}
+
+.picture .top-pic .left ul:nth-child(2) li:nth-child(3) a {
+    background-position: -244px -70px;
+}
+
+.picture .top-pic .left ul:nth-child(2) li:nth-child(4) a {
+    background-position: -392px -68px;
+}
+
+.picture .top-pic .left ul:nth-child(2) li:nth-child(5) a {
+    background-position: -544px -68px;
+}
+
+.picture .top-pic .left ul:nth-child(2) li:nth-child(6) a {
+    background-position: -729px -78px;
+}
+.picture .top-pic .left ul:nth-child(2) li:nth-child(6) img {
+    position: absolute ;
+    right: 150px;
+    top: 66px ;
+}
+.picture div:nth-child(2) .left ul:nth-child(2) li:nth-child(7) a {
+    background-position: -855px -70px;
+}
+
+/* 第三列表 */
+.picture .top-pic .left ul:nth-child(3) li:nth-child(1) a {
+    background-position: 43px -155px;
+}
+
+.picture .top-pic .left ul:nth-child(3) li:nth-child(2) a {
+    background-position: -111px -156px;
+}
+
+.picture .top-pic .left ul:nth-child(3) li:nth-child(3) a {
+    background-position: -245px -151px;
+}
+
+.picture .top-pic .left ul:nth-child(3) li:nth-child(4) a {
+    background-position: -398px -151px;
+}
+
+.picture .top-pic .left ul:nth-child(3) li:nth-child(5) a {
+    background-position: -547px -150px;
+}
+
+.picture .top-pic .left ul:nth-child(3) li:nth-child(6) a {
+    background-position: -719px -152px;
+}
+.picture .top-pic .left ul:nth-child(3) li:nth-child(7) a {
+    background-position: -859px -152px;
+}
+
+.picture .top-pic .left ul:nth-child(3) li {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+/* 右边块 */
+.picture .top-pic .right {
+    width: 190px;
+    height: 214px;
+    float: right;
+}
+
+.picture .top-pic .right ul {
+    width: 190px;
+    height: 66px;
+    border: 1px solid #dfdfdf;
+}
+
+.picture .top-pic .right ul li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+    background: url(../images/dot.png) no-repeat 8px center;
+    padding-left: 18px;
+}
+
+.picture .top-pic .right ul li a {
+    text-decoration: none;
+    color: #787878;
+}
+
+.picture .top-pic .right .center {
+    height: 34px;
+    width: 190px;
+}
+
+.picture .top-pic .right .center a {
+    height: 34px;
+    width: 190px;
+    /* background: url(../images/98i4o4ptit.png) no-repeat left center ; */
+    background-position: left right
+}
+
+.picture .top-pic .right .bottom {
+    height: 112px;
+    width: 190px;
+    border: 1px solid #dfdfdf;
+    position: relative;
+    /* background: url(../images/nb.png) no-repeat; */
+    
+}
+
+.picture .top-pic .right .bottom img{
+    position: absolute ;
+    left: 0;
+    right: 0;
+    top: 0 ;
+    bottom: 0 ;
+    margin:auto ;
+}
+
+/********** 7 center 显示大图的中间部分   *********/
+.picture .center-pic {
+    height: 290px;
+    width: 1190px;
+    /* margin-top:11px ; */
+    margin: 11px auto;
+    /* border:1px solid red ; */
+}
+
+.picture .center-pic dl {
+    list-style: none;
+    float: left;
+    /* border:1px solid red ; */
+    position: relative;
+    background: #fefefe;
+    float: left;
+    margin-right: 10px;
+    height: 290px;
+}
+
+/* 设置上方图片 */
+.picture .center-pic dl dt {
+    background: url(../images/center.png) no-repeat;
+    border-bottom: 1px dashed #d5d5d5;
+    height: 224px;
+}
+
+
+
+/* 设置下方字体 */
+.picture .center-pic dl a {
+    text-decoration: none;
+
+}
+
+.picture .center-pic dl a dd {
+    padding-top: 8px;
+    padding-left: 8px;
+    line-height: 22px;
+
+}
+
+.picture .center-pic dl a dd h3 {
+    font-size: 18px;
+    color: #404040;
+}
+
+.picture .center-pic dl a dd p {
+    font-size: 12px;
+    color: #818181;
+}
+
+
+/* 第一个有序列表 */
+.picture .center-pic dl:nth-child(1) {
+    width: 350px;
+    /* height: 290px; */
+    /* float: left;
+    margin-right: 10px ;*/
+}
+
+.picture .center-pic dl:nth-child(1) dt {
+    width: 350px;
+    background-position: 5px 8px;
+    /* border-bottom: 1px dashed #d5d5d5 ; */
+    /* vertical-align: top ; */
+    /* height: 224px; */
+}
+
+
+/* 第二个有序列表 */
+.picture .center-pic dl:nth-child(2) {
+    width: 205px;
+    /* height: 290px; */
+    /* float: left;
+    margin-right: 10px ; */
+}
+
+.picture .center-pic dl:nth-child(2) dt {
+    width: 205px;
+    background-position: -354px 8px;
+    /* border-bottom: 1px dashed #d5d5d5 ; */
+    /* vertical-align: top ; */
+    /* height: 224px; */
+}
+
+/* 第三个有序列表 */
+.picture .center-pic dl:nth-child(3) {
+    width: 216px;
+    /* height: 290px; */
+    /* float: left;
+    margin-right: 10px ; */
+}
+
+.picture .center-pic dl:nth-child(3) dt {
+    width: 216px;
+    background-position: -556px 8px;
+    /* height: 224px; */
+    /* border-bottom: 1px dashed #d5d5d5 ; */
+    /* vertical-align: top ; */
+}
+
+/* 第四个有序列表 */
+.picture .center-pic dl:nth-child(4) {
+    width: 189px;
+    /* height: 290px; */
+    /* float: left;
+    margin-right: 10px ; */
+}
+
+.picture .center-pic dl:nth-child(4) dt {
+    width: 189px;
+    background-position: -775px 8px;
+    /* height: 224px; */
+    /* border-bottom: 1px dashed #d5d5d5 ; */
+    /* vertical-align: top ; */
+}
+
+/* 第五个有序列表 */
+.picture .center-pic dl:nth-child(5) {
+    width: 189px;
+    /* height: 290px; */
+    /* float: left;
+    margin-right: 10px ; */
+}
+
+.picture .center-pic dl:nth-child(5) dt {
+    width: 189px;
+    background-position: -967px 8px;
+    /* height: 224px; */
+    /* border-bottom: 1px dashed #d5d5d5 ; */
+    /* vertical-align: top ; */
+}
+
+.picture .center-pic dl:nth-child(5) {
+    margin-right: 0;
+}
+
+/********** 8 bottom 显示大图的下方部分   *********/
+.picture .bottom-pic {
+    height: 426px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/* **************************** */
+/* 左边 */
+/* **************************** */
+.picture .bottom-pic .left {
+    width: 190px;
+    height: 426px;
+    float: left;
+}
+
+/* 左边所有列表格式重置 */
+.picture .bottom-pic .left .bottom ul {
+    float: left;
+}
+
+.picture .bottom-pic .left li {
+    list-style: none;
+    /* overflow: hidden; */
+    margin-right: 0;
+}
+
+.picture .bottom-pic .left .bottom ul li:hover a {
+    font-weight: normal;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.picture .bottom-pic .right {
+    margin-top: 0;
+}
+
+/* 上边 */
+.picture .bottom-pic .left .top {
+    height: 60px;
+    width: 190px;
+}
+
+/* 中间 */
+.picture .bottom-pic .left .center {
+    height: 200px;
+    width: 190px;
+    margin-bottom: 16px;
+}
+
+.picture .bottom-pic .left .center ul {
+    float: left;
+}
+
+.picture .bottom-pic .left .center ul li {
+    width: 94px;
+    height: 40px;
+    border-bottom: 1px dashed #dcdcdc;
+    position: relative;
+}
+
+.picture .bottom-pic .left .center ul li a {
+    width: 94px;
+    height: 40px;
+    position: absolute;
+    background: url(../images/201409101646002.png) no-repeat;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(1) {
+    border-right: 1px dashed #dcdcdc;
+}
+
+/* 在连接中插入图片 */
+/* 第一个列表 */
+.picture .bottom-pic .left .center ul:nth-child(1) li:nth-child(1) a {
+    background-position: 0 -1014px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(1) li:nth-child(2) a {
+    background-position: 0 -760px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(1) li:nth-child(3) a {
+    background-position: 0 -80px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(1) li:nth-child(4) a {
+    background-position: 0 -228px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(1) li:nth-child(5) a {
+    background-position: 0 -498px;
+}
+
+
+.picture .bottom-pic .left .center ul:nth-child(2) li:nth-child(1) a {
+    background-position: 4px -152px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(2) li:nth-child(2) a {
+    background-position: 4px -798px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(2) li:nth-child(3) a {
+    background-position: 0px -1260px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(2) li:nth-child(4) a {
+    background-position: 4px -892px;
+}
+
+.picture .bottom-pic .left .center ul:nth-child(2) li:nth-child(5) a {
+    background-position: 4px -270px;
+}
+
+
+/* 下边 */
+.picture .bottom-pic .left .bottom {
+    width: 190px;
+    height: 166px;
+    font-size: 12px;
+}
+
+.picture .bottom-pic .left .bottom ul:nth-child(1) {
+    margin-right: 36px;
+    margin-left: 8px;
+}
+
+.picture .bottom-pic .left .bottom ul li a {
+    text-decoration: none;
+    color: #3d3d3b;
+    line-height: 26px;
+}
+
+
+/* **************************** */
+/* 中间 */
+/* **************************** */
+.picture .bottom-pic .pic-center {
+    float: left;
+    margin-left: 9px;
+}
+
+/* **************************** */
+/* 右边 */
+/* **************************** */
+.picture .bottom-pic .right {
+    width: 588px;
+    height: 426px;
+    float: right;
+}
+
+.picture .bottom-pic .right ul {
+    float: left;
+}
+
+.picture .bottom-pic .right ul li {
+    width: 194px;
+    /* height: 178px; */
+    list-style: none;
+    border-left: 1px solid #d2d2d2;
+    float: left;
+}
+
+.picture .bottom-pic .right ul:nth-child(1) {
+    width: 588px;
+    height: 246px;
+}
+
+.picture .bottom-pic .right ul:nth-child(2) {
+    width: 588px;
+    height: 180px;
+}
+
+.picture .bottom-pic .right ul:nth-child(2) li a img {
+    height: 178px;
+}
+
+.picture .bottom-pic .right ul:nth-child(1) {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+/************************************************************
+*** 6 footer 显示页面的页脚部分
+*************************************************************/
+.footer {
+    height: 228px;
+    width: 100%;
+    border-top: 2px solid #ce3c3d;
+    margin-top: 22px;
+}
+.footer .main-footer {
+    width: 1190px;
+    height: 228px;
+    margin: 0 auto;
+}
+.footer .main-footer .QR {
+    margin-top: 15px;
+    height: 195px;
+    width: 230px;
+    border-right: 1px solid #dedede;
+    margin-left: 15px;
+    float: left;
+}
+.footer .main-footer .foot {
+    height: 195px;
+    width: 942px;
+    border-left: 1px solid #ffffff;
+    float: left;
+}
+.footer .main-footer .foot div {
+    height: 142px;
+    width: 162px ;
+    margin-top: 20px ;
+    float: left;
+}
+.footer .main-footer .foot div dl{
+    list-style: none;
+    /* float: left; */
+}
+.footer .main-footer .foot div dl dt{
+    font-size: 14px ;
+    font-weight: bold ;
+    color: #646464 ;
+    margin-top:20px ;
+    line-height: 27px ;
+}
+.footer .main-footer .foot div dl a{
+    text-decoration: none ;
+    color: #979797 ;
+    font-size: 12px ;
+    line-height: 19px ;
+}
+.footer .main-footer .foot div:nth-child(1){
+    margin-left: 50px ;
+    margin-right: 62px ;
+}
+.footer .main-footer .foot div:nth-child(2){
+    margin-right: 64px ;
+}
+.footer .main-footer .foot div:nth-child(3){
+    margin-right: 62px ;
+}
+.footer .main-footer .foot div:nth-child(3){
+    margin-right: 64px ;
+}

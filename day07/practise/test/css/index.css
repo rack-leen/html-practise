@@ -1,0 +1,35 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+div{
+    width: 200px ;
+    height: 230px ;
+    border: 1px solid ;
+    margin: 20px ;
+    float: left;
+}
+
+.box1{
+    overflow: hidden;
+}
+
+.box2{
+    overflow: scroll ;
+}
+
+.box3{
+    overflow: auto ;
+}
+
+.box4{
+    overflow: scroll;
+}
+
+.box4 p{
+    height: 240px ;
+    width: 180px ;
+    background: orange ;
+    overflow: inherit ;
+}

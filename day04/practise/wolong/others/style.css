@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin:0 ;
+  padding:0 ;
+	}
+
+.header{
+	height: 100px;
+	width: 1000px;
+	margin:0px auto ;
+	}
+
+.header .logo{
+	width: 246px ;
+	height: 30px ;
+	float:left ;
+	margin-top:40px ;
+	margin-left:20px ;
+	}
+                                        
+.header form{
+	width:229px ;
+	height:30px ;
+	float:right ;
+	margin-top:40px ;
+	margin-right:20px ;
+	}
+
+.header form .search{
+	width:187px ;
+	height:30px ;
+	font-size:12px ;
+	padding-left:14px ;
+	}
+
+.header form .btn{
+	width:28px ;
+	height:30px ;
+	background-image:url(images/search.png) ;
+	background-repeat:no-repeat ;
+	background-position:center center ;
+	}
+
+.header form input{
+	float:left ;
+	border:none ;
+	background-color:#f1f1f1 ;
+	
+	}

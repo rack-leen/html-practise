@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>京东会员登录</title>
+</head>
+
+<body>
+<form name="jdLogin" method="post/get" action="">
+	<table border="1" bgcolor="#ffc0cb" width="400" height="400" cellspacing="0" cellpadding="0" align="center">
+    	<tr width="74" height="72" align="center">
+        	<td colspan="2"><b>京东会员</b></td>
+            
+        </tr>
+        
+        <!-- placeholder属性是在表单框中显示提示 -->
+        <tr width="74" height="72">
+        	<td>用户名：</td>
+            <td><input type="text" name="userName" value="" placeholder="请设置你的用户名" /><font color="red">最多输入6个字符</font></td>
+        </tr>
+        
+        <tr width="74" height="72">
+        	<td>密码：</td>
+            <td><input type="password" name="userPasswd" placeholder="请输入你的密码" /><font color="red">最多输入6个字符</font></td>
+        </tr>
+        
+        <tr width="74" height="118">
+        	<td>验证码：</td>
+            <td><input type="text" name="identify" placeholder="请输入验证码"/><br/><img src="images/yzm.jpg" width="90" height="34"/></td>
+        </tr>
+        
+        <tr align="center">
+        	<td colspan="2"><a href="#">登录</a>&nbsp;|&nbsp;<a href="#">注册用户</a></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

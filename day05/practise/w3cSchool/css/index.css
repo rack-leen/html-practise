@@ -1,0 +1,17 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    width: 1280px ;
+}
+
+/* 头部 */
+.header{
+    height: 100px;
+}
+/* 左边 logo */
+
+
+/* 右边 搜索 */
